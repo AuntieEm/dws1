@@ -32,13 +32,10 @@ h2, h3, h4 {
 }
 
 
-
 p {
 	line-height: 1.5;
 		
 } 
-
-
 
 
 #main_nav ul {
@@ -62,6 +59,7 @@ p {
 	padding: 10px;
 	margin: 10px;
 	background-color: #F6FFE0;
+	opacity: 0.75;
 	border: 2px solid #E2F0D6;
 	border-radius: 10px;
 	box-shadow: 5px 5px 3px 1px #999;
@@ -85,11 +83,13 @@ p {
 #hedgehog1, #hedgehog2, #hedgehog3, #hedgehog4{
 	border: 3px double #10222B;
 	box-shadow: 5px 5px 3px 1px #999;
+
 	
 }
 
 #hedgehog1:hover {
 	border: 3px solid #10222B;
+	
 	
 }
 
@@ -128,7 +128,7 @@ a:active {
 }
 
 strong {
-	color: red;
+	color: #D61D1A;
 }
 
 
