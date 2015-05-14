@@ -1,99 +1,86 @@
 body {
-	background-color: #E2F0D6; 
+	background-color: #; 
 	color: #10222B;
 	padding: 20px;
 	font-family: Helvetica, Arial, serif;
 }
 
 h1, h2, h3, h4 {
-	padding: inherit;
-}
-
-h1
-
-h2
-
-h3
-
-h4
-
-p
-
-ol
-
-li
-
-aside
-
-figure
-
-figurecaption
-
-a
-
-a:hover
-
-
-#top
-
-#main_nav
-
-#species
-
-#phisical_description
-
-#diet
-
-#domesticated_hedgehogs
-
-#gallery
-
-
-
-
-
-/*
-h1, h2, h3, a {
-	font-weight: normal;
-}
-
-h1 {
-	font-family: Georgia, Times, serif;
+	padding: 40px;
 	color: #95AB63;
 	text-shadow: 2px 2px 4px #E2F0D6;
-	
-}
-
-h2	{
-	font-family: Gill Sans, Arial, sans-serif;
-	font-size: 0.9em;
 	text-transform: uppercase;
 }
 
-h3	{
-	font-size: 1.5em;
-	font-weight: normal;
-}
-
-p	{
-	font-family: Arial, Verdana, sans-serif;
-	line-height: 1.4;
-}
-
-#intro {
+h1 {
+	text-align: center;
+	font-size: 40px;
 	font-weight: bold;
+	text-decoration: underline;
 }
 
-#credits {
-	text-align: right;
+
+
+p {
+	line-height: 1.5;
+		@font-face {
+			font-family: 'Roboto', sans-serif;
+			src: url('Roboto-Bold.ttf') format ('truetype');
+	}
+} 
+
+
+
+header {
+	text-align: justify;
+}
+
+#main_nav ul {
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #10222B;
+	border-bottom: 1px solid #10222B;
+	text-align: center;
+	list-style-type: none;
+}
+
+#main_nav li {
+	list-style-type: none;
+	display: inline;
+	margin: 0px 10px;
+}
+
+
+a {
+	color: #95AB63;
 	font-style: italic;
 }
 
-a {
-	text-decoration: none;
+a:hover {
+	color: #10222B;
 }
 
-a:hover {
-	text-decoration: underline;
+a:link {
+	color: #10222B;
 }
-*/
+
+a:visited {
+	color: #10222B;
+}
+
+a:active {
+	color: #10222B;
+}
+
+strong {
+	color: red;
+}
+
+
+#top: hover {
+	color: #10222B;
+}
+
+
+
+
