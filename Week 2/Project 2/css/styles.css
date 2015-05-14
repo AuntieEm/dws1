@@ -4,7 +4,7 @@
 	}
 
 body {
-	background-color: #; 
+	background-color: #10222B; 
 	color: #10222B;
 	padding: 20px;
 	font-family: Alice, Arial, serif;
@@ -38,7 +38,7 @@ header {
 }
 
 #main_nav ul {
-	margin: 0px auto 0px auto;
+	margin: 0px auto;
 	padding: 15px;
 	border-top: 2px solid #10222B;
 	border-bottom: 1px solid #10222B;
@@ -52,6 +52,20 @@ header {
 	margin: 0px 10px;
 }
 
+#intro {
+	
+}
+
+#page {
+	width: 1050px;
+	background-color: #E2F0D6;
+	border: 4px double #BDD684;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 a {
 	color: #95AB63;
