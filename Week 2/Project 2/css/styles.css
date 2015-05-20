@@ -1,8 +1,5 @@
 /* "Alice" font from Google Fonts */
-@font-face {
-			font-family: 'Alice', serif;
-			src: url('Alice-regular.ttf');
-}
+
 /*----- Header -----*/
 header {
 	text-align: center;
