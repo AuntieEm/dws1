@@ -99,21 +99,27 @@ a {
 	color: #95AB63;
 	font-style: italic;
 }
-a:hover {
-	color: #10222B;
-}
+
 a:link {
 	color: #95AB63;
 }
+
 a:visited {
 	color: #10222B;
 }
+
+a: hover {
+	color: #10222B;
+}
+
 a:active {
 	color: #95AB63;
 }
+
 #top:hover {
 	color: #10222B;
 }
+
 
 
 
