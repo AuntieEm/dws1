@@ -8,10 +8,13 @@ header {
 body {
 	width: 90%
 	margin: 0 auto;
-	background-color: #10222B; 
+	background-image: url("../images/header.gif");
+	background-repeat: x y;
+	background-position: top;
 	padding: 20px;
 	font-family: Alice, Arial, serif;
 	font: .75em;
+	
 	
 }
 /*----- Heading 1 -----*/
@@ -32,6 +35,9 @@ h2, h3, h4 {
 
 h2 {
 	font: 2em;
+	background-image: url("../images/figure.gif");
+	background-repeat: no-repeat;
+	background-position: top left;	
 }
 
 h3 {
@@ -51,7 +57,7 @@ p {
 #page {
 	width: 95%;
 	height: auto;
-	background-color: #E2F0D6;
+	background: linear-gradient(#c8d198, #90c900) ;
 	border: 4px double #BDD684;
 	border-radius: 20px;
 	padding: 20px;
@@ -157,7 +163,8 @@ figure {
 	height 250px;
 	margin: 0;
 	padding: 9px;
-	background-color: #F6FFE0;	
+	background-image: url("../images/figure.gif");	
+	background-position: top center;
 }
 
 figure img {
@@ -176,11 +183,17 @@ figcaption {
 	float: left;
 	width: 30%;
 	margin: 1%;
+	
 }
 
 #top {
 	clear: left;
+	
 }
+
+
+
+
 
 /*
 
