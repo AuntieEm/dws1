@@ -6,13 +6,17 @@ header {
 }
 /*----- Body -----*/
 body {
+	width: 90%
+	margin: 0 auto;
 	background-color: #10222B; 
 	padding: 20px;
 	font-family: Alice, Arial, serif;
+	font: .75em;
+	
 }
 /*----- Heading 1 -----*/
 h1 {
-	font: bold 40px;
+	font: bold 2.5em;
 	text-align: center;
 	text-decoration: underline;
 	color: #10222B;
@@ -25,13 +29,27 @@ h2, h3, h4 {
 	text-shadow: 1px 1px 1px #10222B;
 	text-transform: uppercase;
 }
+
+h2 {
+	font: 2em;
+}
+
+h3 {
+	font: 1.5em;
+}
+
+h4 {
+	font: 1em;
+}
+
 /*----- Paragraph -----*/
 p {
 	line-height: 1.5;	
+	font: 1em;
 } 
 /*----- Page -----*/
 #page {
-	width: 1050px;
+	width: 95%;
 	height: auto;
 	background-color: #E2F0D6;
 	border: 4px double #BDD684;
@@ -124,14 +142,14 @@ a:active {
 
 #gallery img {
 	float: left;
-	margin: 20px;
+	margin: 1%;
 	
 }
 
 #column1of2, #column2of2 {
 	float: left;
-	width: 500px;
-	margin: 10px;
+	width: 45%;
+	margin: 1%;
 }
 
 figure {
@@ -156,8 +174,8 @@ figcaption {
 
 #columnone, #columntwo, #columnthree {
 	float: left;
-	width: 300px;
-	margin: 10px;
+	width: 30%;
+	margin: 1%;
 }
 
 #top {
