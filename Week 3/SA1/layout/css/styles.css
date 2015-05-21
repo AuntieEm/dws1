@@ -49,7 +49,7 @@ li {
 #content {
 	width: 600px;
 	margin: 20px auto;
-	overflow: auto;
+	overflow: auto; /* fixes column overlap on page border */
 }
 
 h1 {
