@@ -6,10 +6,9 @@ header {
 }
 /*----- Body -----*/
 body {
-	width: 90%
-	margin: 0 auto;
+	width: 90%;
+	margin: 5%;
 	background-image: url("../images/header.gif");
-	background-repeat: x y;
 	background-position: top;
 	padding: 20px;
 	font-family: Alice, Arial, serif;
@@ -144,12 +143,11 @@ a:active {
 	color: #10222B;
 }
 
-
+/*----- Gallery Layout -----*/
 
 #gallery img {
 	float: left;
 	margin: 1%;
-	
 }
 
 #column1of2, #column2of2 {
@@ -159,16 +157,17 @@ a:active {
 }
 
 figure {
-	width: 330px;
-	height 250px;
+	width: 60%;
+	height: 250px;
 	margin: 0;
 	padding: 9px;
 	background-image: url("../images/figure.gif");	
-	background-position: top center;
+	background-repeat: repeat;
+	background-position: center;
 }
 
 figure img {
-	width: 320px;
+	width: 95%;
 	height:240px;
 	border: 1px solid #8c9c9e;	
 }
@@ -179,43 +178,16 @@ figcaption {
 	padding: 5px 0 0 25px;
 }
 
+/*----- Physical Description Layout -----*/
+
 #columnone, #columntwo, #columnthree {
 	float: left;
 	width: 30%;
-	margin: 1%;
-	
+	margin: 1%;	
 }
 
 #top {
 	clear: left;
-	
 }
-
-
-
-
-
-/*
-
-
-
-.entry {
-	font-size: 0.70em;
-	width: 220px;
-	height: 220px;
-	float: left;
-	margin: 10px;
-	background: url("../images/shadow.png") no-repeat bottom;
-	/*
-	background-color: #777;
-	background-image: url("../images/shadow.png");
-	background-repeat: no-repeat;
-	background-position: bottom left;
-	*/
-}
-
-/*
-
-*/
 
 
