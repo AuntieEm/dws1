@@ -186,8 +186,10 @@ figcaption {
 	margin: 1%;	
 }
 
-#top {
+#return_top1, #return_top2, #return_top3, #return_top4, #return_top5 {
 	clear: left;
+	padding: 20px;
+	margin: 5%;
 }
 
 
