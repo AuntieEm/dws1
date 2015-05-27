@@ -34,7 +34,7 @@ h2, h3, h4 {
 
 h2 {
 	font: 2em;
-	background-image: url("../images/figure.gif");
+	background-image: url("../images/icon.png");
 	background-repeat: no-repeat;
 	background-position: top left;	
 }
@@ -152,29 +152,26 @@ a:active {
 
 #column1of2, #column2of2 {
 	float: left;
-	width: 45%;
+	width: 48%;
 	margin: 1%;
+	
 }
 
 figure {
-	width: 60%;
+	width: 50%;
 	height: 250px;
 	margin: 0;
-	padding: 9px;
-	background-image: url("../images/figure.gif");	
-	background-repeat: repeat;
-	background-position: center;
+	padding: 10px;
 }
 
 figure img {
-	width: 95%;
+	width: 100%;
 	height:240px;
 	border: 1px solid #8c9c9e;	
 }
 
 figcaption {
-	background-image: url("../images/icon.png");
-	background-repeat: no-repeat;
+	
 	padding: 5px 0 0 25px;
 }
 
@@ -184,12 +181,14 @@ figcaption {
 	float: left;
 	width: 30%;
 	margin: 1%;	
+
 }
 
 #return_top1, #return_top2, #return_top3, #return_top4, #return_top5 {
 	clear: left;
 	padding: 20px;
 	margin: 5%;
+	
 }
 
 
