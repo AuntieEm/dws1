@@ -248,21 +248,10 @@ legend {
 	color: #284907;
 }
 
-.title {
-	float: left;
-	width: 400px;
-	text-align: left;
-	padding-right: 10px;
-}
 
 input {
-	width: 75%;
 	border: 1px solid #382513;
 	padding: 10px;
-	margin: 2%;
-}
-
-label {
 	margin: 2%;
 }
 
@@ -271,9 +260,8 @@ input:hover, input:focus {
 	border: 1px solid #363942;
 }
 
-.radio-buttons {
-	width: 150px;
-	margin: 3px;
+.title {
+	line-height: 2;
 }
 
 div#submit {
@@ -294,3 +282,26 @@ input[type="submit"]:hover {
 	cursor: pointer;
 }
 
+
+
+/*
+.title {
+	float: left;
+	width: 400px;
+	text-align: left;
+	padding-right: 10px;
+}
+*/
+
+/*
+label {
+	margin: 2%;
+}
+
+
+
+.radio-buttons {
+	width: 150px;
+	margin: 3px;
+}
+*/
