@@ -24,7 +24,7 @@
 					<li><a href="#domesticated_hedgehogs">Domesticated Hedgehogs</a></li>
 					<li><a href="#gallery">Gallery</a></li>
 					<li><a href="#table">Hedgehog Age vs. Human Age</a></li>
-					<li><a href="#form">Contact Us</a></li>
+					<li><a href="#contact_content">Contact Us</a></li>
 				
 				</ul>
 			</nav>
@@ -207,62 +207,57 @@
 												
 					</tbody>
 				</table>
-				</section>
+				</section> <!---/table-->
 				
 			<div id="return_top6">
 				<p><a href="#top">Top of Page</a></p>
 			</div>
 				
-				
-				<!---form - what is your name
-				what is your email?
-				rate this page - poor good amazing
-				where did you hear about us
-				any additional comments?-->
-			
-				<section id="form">
+				<section id="contact_content">
 				<h2>Contact Us</h2>
 				
 				
 					<form action="mailto:eadavis@fullsail.edu" method="post">
 						<fieldset>
 							<legend>Contact us for more info on hedgehogs.</legend>
-							<p>
-								<label for="name">What's your name?</label>
-								<input type="text" id="name" name="name"/>
-							</p>
+							<div>
+								<label for="name" class="title">What's your name?</label>
+								<input type="text" id="name" name="name" placeholder="Chris Vincze" required/>
+							</div>
 							
-							<p>
-								<label for="email">What's your e-mail address?</label>
-								<input type="text" id="email" name="email"/>
-							</p>
+							<div>
+								<label for="email" class="title">What's your e-mail address?</label>
+								<input type="email" id="email" name="email" placeholder="fs.cvincze@gmail.com" required/>
+							</div>
 							
-							<p>
-							<span>How would you rate this page?</span>
-							<label>
-								<input type="radio" name="rating" value="fail">
-								FAIL!
-							</label>
-							<label>
-								<input type="radio" name="rating" value="meh">
-								Meh...
-							</label>
-							<label>
-								<input type="radio" name="rating" value="awesome">
-								AWESOME!
-							</label>
-							</p>
+							<div class="radio-buttons">
+								<span class="title">How would you rate this page?</span>
+								<input type="radio" name="rating" id="fail" value="fail">
+								<label for="fail">FAIL!</label>
+								<input type="radio" name="rating" id="meh" value="meh">
+								<label for="meh">meh...</label>
+								<input type="radio" name="rating" id="awesome" value="awesome" checked="checked">
+								<label for="awesome">AWESOME!</label>
+								<br>
+							</div>
 								
-							<p>
-								<label for="where">Where did you hear about us?</label>
+							<div>
+								<label for="where" class="title">Where did you hear about us?</label>
 								<select name="where" id="where">
 									<option value="fs">Full Sail Class</option>
 									<option value="huh">What is this place????</option>
 								</select>
-							</p>
+							</div>
+							<div>
+								<label for="comments" class="title">Do you have any additional comments?</label>
+								<textarea rows="10" cols="68" id="comments">You're supposed to type stuff here.</textarea>
+							</div>
 						</fieldset>
+						<div class="submit">
+							<input type="submit" value="Send">
+						</div>
 					</form>															
-				</section>
+				</section> <!---/contact_content-->
 				
 			<div id="return_top7">
 				<p><a href="#top">Top of Page</a></p>

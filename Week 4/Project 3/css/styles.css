@@ -56,7 +56,7 @@ p {
 #page {
 	width: 95%;
 	height: auto;
-	background: linear-gradient(#c8d198, #90c900) ;
+	background-color: #5C832F;
 	border: 4px double #BDD684;
 	border-radius: 20px;
 	padding: 20px;
@@ -184,6 +184,8 @@ figcaption {
 
 }
 
+/*----- Top of Page Links -----*/
+
 #return_top1, #return_top2, #return_top3, #return_top4, #return_top5, #return_top6, #return_top7 {
 	clear: left;
 	padding: 10px;
@@ -191,6 +193,7 @@ figcaption {
 	
 }
 
+/*----- Table -----*/
 
 th, td {
 	width: 50%;
@@ -203,6 +206,8 @@ th, td {
 	border-right: 1px solid #cbd2d8;
 	
 }
+
+
 
 table {
 	border-spacing: 4px;
@@ -223,4 +228,69 @@ table:hover {
 	color: #D8CAA8;
 }  
 
+/*----- Form -----*/
+
+#contact_content {
+	width: 45%;
+	margin: 20px auto;
+	float: left;
+}
+
+fieldset {
+	width: 100%;
+	margin: 2%;
+	border: 1px solid #fff;
+}
+
+legend {
+	font-style: italic;
+	font-size: 1.5em;
+	color: #284907;
+}
+
+.title {
+	float: left;
+	width: 400px;
+	text-align: left;
+	padding-right: 10px;
+}
+
+input {
+	width: 75%;
+	border: 1px solid #382513;
+	padding: 10px;
+	margin: 2%;
+}
+
+label {
+	margin: 2%;
+}
+
+input:hover, input:focus {
+	background-color: #D6D8C8;
+	border: 1px solid #363942;
+}
+
+.radio-buttons {
+	width: 150px;
+	margin: 3px;
+}
+
+div#submit {
+	width: 310px;
+	text-align: left;
+}
+
+input[type="submit"] {
+	border: 1px solid #363942;
+	background: linear-gradient(#d8caa8, #d6d8c8);
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+	background: linear-gradient(#d6d8c8, #d8caa8);
+	cursor: pointer;
+}
 
