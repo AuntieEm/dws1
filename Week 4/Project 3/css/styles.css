@@ -27,7 +27,7 @@ h1 {
 /*----- Headings 2, 3, & 4 -----*/
 h2, h3, h4 {
 	padding: 40px;
-	color: #95AB63;
+	color: #D8CAA8;
 	text-shadow: 1px 1px 1px #10222B;
 	text-transform: uppercase;
 }
@@ -190,5 +190,37 @@ figcaption {
 	margin: 5%;
 	
 }
+
+
+th, td {
+	width: 50%;
+	padding: 5px 30px 5px 10px;
+	font-size: 0.8em;
+	margin: 0;
+	background-color: #D8CAA8;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;
+	
+}
+
+table {
+	border-spacing: 4px;
+	text-align: left;
+}
+
+table:hover {
+	border: 2px solid #382513;
+}
+
+.even th, .even td {
+	background-color: #D6D8C8;
+}
+
+.theader th, .theader td {
+	text-transform: capitalize;
+	background-color: #284907;
+	color: #D8CAA8;
+}  
 
 
