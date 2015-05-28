@@ -281,27 +281,3 @@ input[type="submit"]:hover {
 	background: linear-gradient(#d6d8c8, #d8caa8);
 	cursor: pointer;
 }
-
-
-
-/*
-.title {
-	float: left;
-	width: 400px;
-	text-align: left;
-	padding-right: 10px;
-}
-*/
-
-/*
-label {
-	margin: 2%;
-}
-
-
-
-.radio-buttons {
-	width: 150px;
-	margin: 3px;
-}
-*/
